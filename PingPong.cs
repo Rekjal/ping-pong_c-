@@ -23,7 +23,7 @@ namespace Game
       List<string> finalOutcome = new List<string>(0);
       // print all the numbers upto the entered value
       for (int i = 1; i<= userEnteredNumber; i++) {
-        generatedNumber.Add(i);
+         generatedNumber.Add(i);
       }
       foreach(int element in generatedNumber) {
         Console.WriteLine(element);
